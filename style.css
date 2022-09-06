@@ -1,0 +1,209 @@
+:root {
+    --black: #212121
+    --grey: #757575, 
+    --white: #ffffff
+    --accent-color: #2196f3;
+    --color-logo: #000000;
+    --color-background: ##2F303A;
+    --color-section-benefit-background: #F5F5F5;
+    --color-section-our-time-solid: #f5f4fa;
+    --color-border: #ecece
+}
+body{
+font-family: "Roboto", sans-serif;
+}
+.hero-title{
+    font-family: 900;
+}
+.header-logo{
+    font-family: "Raleway";
+    font-weight: 700;
+}
+.list{
+    list-style: none;
+}
+/* header */
+.header-logo a:hover{
+    color: var(--accent-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 3em;
+    border: #ececec;
+    text-decoration: none;
+}
+/*Студія*/
+.button.secondary{
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*НЕ ПІДСВІЧУЄ КНОПКА, Я НЕ РОЗУМІЮ ПОМИЛКИ*/
+.header-nav .button.secondary:hover,
+.header-nav .button.secondary:focus{
+    color: var(--secondary-text-color);
+}
+/* Портфоліо і Контакт*/
+.button-primary b{
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 2em;
+}
+.button{
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 2em;
+    text-decoration: none;
+}
+/*активація*/
+.button.secondary{
+        color: var(--accent-color);
+        background-color: var(--white-color);
+}
+.button{
+color: var(--secondary-text-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 2em;
+text-decoration: none;
+}
+.button a:hover
+.button a:focus{
+    color: var(--secondary-text-color);
+}
+.hero-title{
+    color: var(--white);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    background-color: var(--color-background);
+    border: var(--color-border);
+    color: var(--title-text-color);
+}
+/*btn Зробити замовлення*/
+.button primaryt{
+    color: var(--title-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 6em;
+    text-decoration: none;
+}
+.button primary:hover,
+.button primary:focus{
+    color: var(--white color);
+    background-color: var(--accent-color);
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*title-benefits позначаються 4 рази*/
+.benefit{
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 3em;
+}
+.benefit-list{
+    list-style: none;
+}
+/* 4 пункти, позначенні*/
+.benefit text{
+color: var(--secondary-text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 3em;
+}
+/* не розібралась, чи треба всі class заповнювати*/
+.myzaimaemos-title{
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 3em; 
+}
+/*3 картинки чи треба було щось заповнювати?*/
+.myzaimaemos-list list{
+    list-style: none;
+}
+.myzaimaemos-item {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    border: none;
+}
+/* section our-team*/
+.our-team{
+color: var(--primary-text-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 3em;
+}
+/*імена команди*/
+.name-our-team{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 3em;
+}
+.position-our-team{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 3em;
+}
+/*foto*/
+.foto-our-team{
+    position: absolute;
+    width: 270px;
+
+    height: 260px;
+    border: none;
+}
+/*footer*/
+.footer{
+background-color: var(--color-footer-background);
+}
+.footer-logo{
+    color: var(--accent-color, --color-logo);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 3em;
+    text-decoration: none;
+}
+.footer-address,
+.footer-contact,
+.footer-mailto{
+color: var(--title-text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 3em;
+}
