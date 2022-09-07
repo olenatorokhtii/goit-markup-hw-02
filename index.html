@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
+    <title>Ефективні рішення для вашого бізнесу</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ефективні рішення для вашого бізнесу</title>
+    <link
+      href="https: //fonts.googleapis.com/css2?family= Raleway:wght@700 & family = Roboto:wght@400;500;700;900 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <header>
-      <a href="/">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+    <header class="header">
+      <a href="./logo/WebStudio.svg" class="header-logo">WebStudio</a>
+      <nav class="header-nav">
+        <ul class="header-list list">
+          <li class="button.secondary"><a href="header-link">Студія</a></li>
+          <li class="button-primary"><a href="header-link">Портфоліо</a></li>
+          <li class="button-primary"><a href="header-link">Контакти</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+380961111111</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="button.secondary"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="header-contact">+380961111111</a>
+        </li>
       </ul>
     </header>
     <main>
       <!--Hero section-->
       <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hiro-title">Ефективні рішення для вашого бізнесу</h1>
         <!-- не обов"язково ссилку цю  прописувати <a href="Замовити послугу"></a> ?-->
-        <button type="button">Замовити послугу</button>
+        <button type="button" class="header-button">Замовити послугу</button>
       </section>
       <section>
-        <h2>ПЕРЕВАГИ</h2>
-        <ul>
+        <h2 class="title-benefits">ПЕРЕВАГИ</h2>
+        <ul class="benefits-list list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="betefit">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="benefit-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="betefit">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="benefit-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="betefit">ПЛАНУВАННЯ</h3>
+            <p class="benefit-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="betefit">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="benefit-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -60,31 +71,33 @@
         </ul>
       </section>
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
-          <li>
+        <!--дуже груба помилка буде вказати class myzaimaemos за назвою папки, чи краще вказати action чи we do-->
+        <h2 class="myzaimaemos">Чим ми займаємося</h2>
+        <ul class="myzaimaemos-list list">
+          <li class="myzaimaemos-item">
             <img src="./imgmyzaimaemos/box1.jpg" alt="робота" width="370" />
           </li>
-          <li>
+          <li class="myzaimaemos-item">
             <img src="./imgmyzaimaemos/box2.jpg" alt="робота" width="370" />
           </li>
-          <li>
+          <li class="myzaimaemos-item">
             <img src="./imgmyzaimaemos/box3.jpg" alt="робота" width="370" />
           </li>
         </ul>
       </section>
       <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+        <!-- те саме питання чи дуже грубо буде назвати nashakomanda чи ПРАВИЛЬНО our team -->
+        <h2 class="our team">Наша команда</h2>
+        <ul class="our team list list">
+          <li class="team-member">
             <img
               src="./imgnashakomanda/ihordemyanenko.jpg"
               alt="Ігор Дем'яненко"
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-our team">Ігор Дем'яненко</h3>
+            <p class="position-our team">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -93,8 +106,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-our team">Ольга Репіна</h3>
+            <p class="position-our team">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -103,8 +116,8 @@
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмакові</h3>
-            <p>Marketing</p>
+            <h3 class="name-our team">Михайло Єрмакові</h3>
+            <p class="position-our team">Marketing</p>
           </li>
           <li>
             <img
@@ -113,27 +126,32 @@
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов</h3>
-            <p>UI Designer</p>
+            <h3 class="name-our team">Микола Тарасов</h3>
+            <p class="position-our team">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/">WebStudio</a>
+    <footer class="footer">
+      <a href="./logo/WebStudio.svg">WebStudio</a>
       <address>
-        <ul>
+        <ul class="adress-list list">
           <li>
             <a
               href="https://goo.gl/maps/BP3hCsSiEi1DGczx5"
               target="_blank"
               rel="noopener nooferrer noffolow"
+              class="footer-adres"
             >
               boulevard Lesya Ukrainka, 26 Kyiv 02000></a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11 </a></li>
+          <li class="footer-mailto">
+            <a href="mailto:info@devstudio.com">info@devstudio.com </a>
+          </li>
+          <li class="footer-contakt">
+            <a href="tel:+380961111111">+38 096 111 11 11 </a>
+          </li>
         </ul>
       </address>
     </footer>
