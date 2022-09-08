@@ -94,13 +94,13 @@ text-decoration: none;
     color: var(--title-text-color);
 }
 /*btn Зробити замовлення*/
-.button primaryt{
-    color: var(--title-text);
+.header.button{
+    color: var(--white);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 6em;
-    text-decoration: none;
+    text-decoration: var(--accent-color);
 }
 .button primary:hover,
 .button primary:focus{
@@ -152,10 +152,6 @@ letter-spacing: 3em;
     list-style: none;
 }
 .myzaimaemos-item {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    border: none;
 }
 /* section our-team*/
 .our-team{
