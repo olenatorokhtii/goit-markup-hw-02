@@ -50,7 +50,7 @@ ul{
 }
 .button .primery a {
     color: var(--color white);
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -70,6 +70,9 @@ ul{
 .header-nav .button-primery link:focus {
     color: var(--accent-color);
     background-color: var(--color white);
+}
+.header-nav .link .current {
+color: var(--accent-color);
 }
 /*Портфолио та контакт*/
 .button .secondery {
