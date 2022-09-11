@@ -18,9 +18,11 @@ body {
     background: var(--primary-white-color);
     font-family: "Roboto", sacs-serif;
     font-weight: 500;
+    font-family: inherit;
 }
 .hero-title {
     font-weight: 900;
+    
 }
 .header-logo :hover {
     font-family: "Raleway";
@@ -47,6 +49,7 @@ ul{
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
 .button .primery a {
     color: var(--color white);
