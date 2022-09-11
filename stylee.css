@@ -32,7 +32,7 @@ body {
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    line-height: 31;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 /*убирает точки*/
@@ -44,7 +44,7 @@ ul{
     color: var(--color white);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -53,7 +53,7 @@ ul{
     background-color: var(--accent-color);
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.06em;
 }
 /*Студія*/
@@ -104,14 +104,14 @@ color: var(--accent-color);
     color: var(--color text);
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
 }
 .betefits-text{
     color: var(--color text2);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 /*Чим ми займаємося та наша кманда, так можна h2 писать?*/
@@ -119,21 +119,21 @@ color: var(--accent-color);
 color: var(--color text);
 font-size: 36px;
 font-weight: 700;
-line-height: 42px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 /*Наша команда*/
 .team-member .name-our team {
     font-size: 16px;
     font-weight: 500; /*я думаю тут не обоов"язково прописувати fw, тому що ми в горі зазначили*/
-    line-height: 19pc;
+    line-height: 1.2;
     letter-spacing: 0.03;
 }
 .position-our team {
     color: var(--color text2);
     font-size: 16px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 /*footer*/
@@ -142,7 +142,7 @@ letter-spacing: 0.03em;
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    line-height: 31;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .address list list {
@@ -152,20 +152,20 @@ letter-spacing: 0.03em;
     color: var(--color white);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .footer mailto {
     color: var(--color ft);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .footer contact {
     color: var(--color ft);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
