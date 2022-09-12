@@ -21,8 +21,7 @@ body {
     font-family: inherit;
 }
 .hero-title {
-    font-weight: 900;
-    
+    font-weight: 900; 
 }
 .header-logo :hover {
     font-family: "Raleway";
@@ -94,6 +93,9 @@ color: var(--accent-color);
     font-size: 14px;
     display: inline-block;
     border: 1px solid black;
+}
+.link:hover {
+  color: tomato;
 }
 .button a :hover,
 .button a :focus {
