@@ -15,10 +15,10 @@
    --primary-white-color: #FFFFFF
 }
 .body{
-background-color: brown;
+background: pink;
 }
 .ul .link {
-    list-style: none;
+    link-list: none;
 }
 
 
