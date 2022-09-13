@@ -14,10 +14,10 @@
    --color-border:  #ECECEC;
    --primary-white-color:  #FFFFFF;
 }
-.ul . link {
-    list: none;
+.ul .link{
+    li: none;
 }
-.p .button-primary current{
+.p .button-primary-current{
     font-size: 16px;
     color: var(--purpl);
     background-color: brown;
@@ -26,7 +26,9 @@
     color: var(--blue);
     font-family: roboto;
 }
-
+.a{
+text-decoration-color: red;
+}
 
 
 
