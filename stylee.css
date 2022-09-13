@@ -14,8 +14,8 @@
    --color-border:  #ECECEC;
    --primary-white-color:  #FFFFFF;
 }
-.ul>link {
-    link-list: none;
+.ul . link {
+    list: none;
 }
 .p .button-primary current{
     font-size: 16px;
