@@ -26,7 +26,7 @@ color: red;
     color: var(--accent-color);
 }
 .text .body-page{
-    color: blueviolet;
+    color: var(color text);
 }
 
 
