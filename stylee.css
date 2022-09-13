@@ -14,15 +14,15 @@
    --color-border: #ECECEC
    --primary-white-color: #FFFFFF
 }
-.ul .link {
+.ul>link {
     link-list: none;
 }
-.p .button-primary current{
+/*.a .button-primary current{
     font-size: 16px;
-    color: var(--accent-color);
+    color: var(--purpl);
 }
 .text .body-page{
-    color: var(color text);
+    color: var(--color text);
 }
 
 
