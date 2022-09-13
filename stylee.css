@@ -37,8 +37,9 @@ body {
     letter-spacing: 0.03em;
 }
 /*убирает точки*/
-ul{
+.ul{
     list-style: none; 
+    background-color: aqua;
 }
 /*Hero section*/
 .title {
@@ -96,7 +97,7 @@ color: var(--accent-color);
 }
 .link:hover {
   color: tomato;
-}
+} /* test*/
 .button a :hover,
 .button a :focus {
     color: var(--accent-color);
