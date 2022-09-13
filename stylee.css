@@ -14,7 +14,33 @@
    --color-border: #ECECEC
    --primary-white-color: #FFFFFF
 }
-body {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
     background: var(--primary-white-color);
     font-family: "Roboto", sacs-serif;
     font-weight: 500;
@@ -27,7 +53,7 @@ body {
     font-family: "Raleway";
     font-weight: 700;
 } 
-/*header*/
+/*header
 .header-logo a :hover {
     color: var(--accent-color);
     font-family: "Raleway";
@@ -36,12 +62,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-/*убирает точки*/
+/*убирает точки
 .ul{
     list-style: none; 
-    background-color: aqua;
-}
-/*Hero section*/
+    /*background-color: aqua;*/
+
+/*Hero section
 .title {
     color: var(--color white);
     font-size: 44px;
@@ -59,16 +85,16 @@ body {
     line-height: 1.9;
     letter-spacing: 0.06em;
 }
-/*Студія*/
+/*Студія
 .button .primery {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
     /*font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    letter-spacing: 0.02em;*/
-    border-color: red; /*це я для себе нписала, щоб бвчить чи працю, але в мене десь на певному коді залипаюють*/
-}
+    letter-spacing: 0.02em;
+    border-color: red; /*це я для себе нписала, щоб бвчить чи працю, але в мене десь на певному коді залипаюють
+
 .header-nav .button-primery link:hover,
 .header-nav .button-primery link:focus {
     color: var(--accent-color);
@@ -77,14 +103,14 @@ body {
 .header-nav .link .current {
 color: var(--accent-color);
 }
-/*Портфолио та контакт*/
+/*Портфолио та контакт
 .button .secondery {
     color: var(--color text);
     background-color: var(--primary-white-color);
     /*font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    letter-spacing: 0.02em;*/
+    letter-spacing: 0.02em;
     border-color: blueviolet;
 }
 .button {
@@ -97,12 +123,11 @@ color: var(--accent-color);
 }
 .link:hover {
   color: tomato;
-} /* test*/
+} /* test
 .button a :hover,
-.button a :focus {
+.button a :focus 
     color: var(--accent-color);
-}
-/*Переваги*/
+Переваги
 .section-benefits .benefits-list {
     color: var(color text);
 }
@@ -120,7 +145,7 @@ color: var(--accent-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-/*Чим ми займаємося та наша кманда, так можна h2 писать?*/
+/*Чим ми займаємося та наша кманда, так можна h2 писать?
 .section-we do .our team{
 color: var(--color text);
 font-size: 36px;
@@ -128,10 +153,10 @@ font-weight: 700;
 line-height: 1.2;
 letter-spacing: 0.03em;
 }
-/*Наша команда*/
+/*Наша команда
 .team-member .name-our team {
     font-size: 16px;
-    font-weight: 500; /*я думаю тут не обоов"язково прописувати fw, тому що ми в горі зазначили*/
+    font-weight: 500; /*я думаю тут не обоов"язково прописувати fw, тому що ми в горі зазначили
     line-height: 1.2;
     letter-spacing: 0.03;
 }
@@ -142,7 +167,7 @@ letter-spacing: 0.03em;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-/*footer*/
+/*footer
 .foter logo {
     color: var(--accent-color);
     font-family: "Raleway";
@@ -174,4 +199,4 @@ letter-spacing: 0.03em;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
-}
+}*/
