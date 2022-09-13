@@ -14,12 +14,12 @@
    --color-border: #ECECEC
    --primary-white-color: #FFFFFF
 }
-
-
-
-
-
-
+.body{
+background-color: brown;
+}
+.ul{
+    list-style: none;
+}
 
 
 
