@@ -11,13 +11,13 @@
    --color-backround ft: #2F303A;
    --color-hero: #2F303A 40%;
    --color-hero2:#C4C4C4;
-   --color-border: #ECECEC;
-   --primary-white-color: #FFFFFF;
+   --color-border: #ECECEC
+   --primary-white-color: #FFFFFF
 }
 .ul>link {
     link-list: none;
 }
-.a .button-primary current{
+.p .button-primary current{
     font-size: 16px;
     color: var(--purpl);
     background-color: brown;
