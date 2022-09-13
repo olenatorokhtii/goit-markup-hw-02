@@ -17,16 +17,15 @@
 .ul>link {
     link-list: none;
 }
-/*.a .button-primary current{
+.a .button-primary current{
     font-size: 16px;
     color: var(--purpl);
+    background-color: brown;
 }
 .text .body-page{
-    color: var(--color text);
+    color: var(--blue);
+    font-family: roboto;
 }
-
-
-
 
 
 
