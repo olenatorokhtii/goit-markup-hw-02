@@ -14,8 +14,9 @@
    --color-border: #ECECEC
    --primary-white-color: #FFFFFF
 }
-.body{
+.body-page{
 background: pink;
+color: red;
 }
 .ul .link {
     link-list: none;
