@@ -1,18 +1,18 @@
 :root{
-   --accent-color: #2196F3
-   --color logo: #000000
-   --color white: #FFFFFF
-   --color text: #212121
-   --color text2: #757575
-   --color-section: #F5F4FA
-   --color shadow: #AFB1B8
-   --color ft2: #FFFFFF 10%
-   --color ft: #FFFFFF 60%
-   --color backround ft: #2F303A
-   --color hero: #2F303A 40%
-   --color hero2:#C4C4C4
-   --color-border: #ECECEC
-   --primary-white-color: #FFFFFF
+   --accent-color: #2196F3;
+   --color-logo: #000000;
+   --color-white: #FFFFFF;
+   --color-text: #212121;
+   --color-text2: #757575;
+   --color-section: #F5F4FA;
+   --color-shadow: #AFB1B8;
+   --color-ft2: #FFFFFF 10%;
+   --color-ft: #FFFFFF 60%;
+   --color-backround ft: #2F303A;
+   --color-hero: #2F303A 40%;
+   --color-hero2:#C4C4C4;
+   --color-border: #ECECEC;
+   --primary-white-color: #FFFFFF;
 }
 .ul>link {
     link-list: none;
