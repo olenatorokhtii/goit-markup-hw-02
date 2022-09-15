@@ -20,6 +20,9 @@ body {
     list-style: none;
 }
 .logo {
- --accent-color;
-
+ color: --accent-color;
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--#ffffff);
 }
