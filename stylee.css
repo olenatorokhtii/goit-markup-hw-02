@@ -20,5 +20,6 @@ body {
     list-style: none;
 }
 .logo {
- color: pink;
+ --accent-color;
+ 
 }
