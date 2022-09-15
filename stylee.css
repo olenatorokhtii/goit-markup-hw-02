@@ -9,8 +9,8 @@
    --color-border:  #ECECEC;
    --color-section: #F5F4FA;
    --color-shadow: #AFB1B8;
-   --color-ft2: #FFFFFF 10%;
-   --color-ft: #FFFFFF 60%;
+   --color-ft2: #red 10%;
+   --color-ft: #ff0000 60%;
    --color-background-ft: #2F303A;
 }
 body {
