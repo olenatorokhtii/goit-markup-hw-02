@@ -17,10 +17,11 @@
 body {
     background-color: #FFFFFF;
 }
-list{
+.list a {
     list-style: none;
 }
-logo {
+.logo {
  color: pink;
 
 }
+.
