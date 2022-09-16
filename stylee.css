@@ -24,7 +24,7 @@ body {
 }
 .hero-button {
     color: var(--color-white);
-    background-color: var(--red);
+    background-color: pink;
     font-family: roboto;
     font-size: 500;
 }
