@@ -23,6 +23,8 @@ body {
  color: --accent-color;
 }
 .hero-button {
-    background-color: var(--accent-color);
-    color: var(--#ffffff);
+    color: var(--color-white);
+    background-color: var(--red);
+    font-family: roboto;
+    font-size: 500;
 }
